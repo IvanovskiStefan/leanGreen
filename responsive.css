@@ -1,0 +1,179 @@
+@media all and (max-width: 600px) {
+  .nutrition-card {
+    flex-direction: column;
+  }
+  .container {
+    padding: 0 20px;
+    width: 100% !important;
+  }
+
+  .hero-background {
+    min-height: 65vh;
+    background-image: linear-gradient(#f1f0f5 50%, rgba(241, 240, 245, 0) 75%),
+      url(media/pictures/header-picture.jpg);
+    background-position: bottom;
+  }
+  .hero-title,
+  .hero-subtitle {
+    width: unset;
+  }
+  .hero-title {
+    font-size: 26px;
+    line-height: 1.5;
+  }
+
+  .hero-subtitle {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .section-one-title {
+    font-size: 26px;
+    line-height: 1.5;
+  }
+  .section-one-subtitle {
+    width: unset;
+    font-size: 17px;
+    line-height: 1.5;
+  }
+
+  .section-one-container {
+    width: unset;
+    margin-top: 20px;
+  }
+  .card-container {
+    width: unset;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .card {
+    width: unset;
+  }
+
+  .card h1 {
+    font-size: 18px;
+  }
+  .card h4 {
+    font-size: 15px;
+  }
+
+  .guarantee p {
+    font-size: 15px;
+  }
+
+  .powerfull-results {
+    width: unset;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .powerfull-results-header {
+    width: unset;
+    font-size: 15px;
+    max-height: 165vh;
+    margin-bottom: 20px;
+  }
+  .powerfull-results-cards {
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+  }
+  .powerfull-results-cards {
+    width: unset;
+  }
+
+  .powerfull-results-card {
+    width: unset;
+  }
+  .inner-container {
+    width: unset;
+  }
+
+  .powerfull-card-btn {
+    width: unset;
+  }
+  .testemonials-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .testemonials {
+    width: unset;
+  }
+
+  .paragraphs {
+    font-size: 15px;
+  }
+  .img-stars {
+    width: 5%;
+  }
+
+  .testemonials h5 {
+    font-size: 10px;
+  }
+  .paragraphs p {
+    margin-bottom: 10px;
+  }
+
+  .banner-title {
+    font-size: 20px;
+  }
+  .banner-container {
+    width: unset;
+  }
+  .banner-title p {
+    font-size: 10px;
+  }
+  .banner {
+    display: flex;
+    flex-direction: column;
+  }
+  .banner p {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+  .nutrient-section-title {
+    font-size: 25px;
+  }
+  .nutrient-section-subtitle {
+    font-size: 20px;
+  }
+
+  .check-box {
+    display: flex;
+    flex-direction: column;
+  }
+  .chk-box-allign {
+    width: unset;
+  }
+  .check-box > div {
+    width: unset;
+  }
+  .check-box p {
+    font-size: 15px;
+    align-items: center;
+  }
+
+  .safe-and-efective {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+  .safe-and-efective-card {
+    width: unset;
+  }
+
+  .rediscover-header {
+    font-size: 20px;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+  .footer-links p {
+    margin-top: 10px;
+  }
+}
